@@ -78,6 +78,6 @@ def runUnittests() {
 
 
 def runUAT(port) {
-	sh "chomod 755 dir6/runUAT_ragz.bash"	
+	sh "chmod 755 dir6/runUAT_ragz.bash"	
 	sh "dir6/runUAT_ragz.bash ${port}"
 }
