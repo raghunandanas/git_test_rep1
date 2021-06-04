@@ -21,7 +21,7 @@ pipeline {
 
 // steps
 def buildApp() {
-	dir ('section_4/code/cd_pipeline' ) {
+	dir ('dir5' ) {
 		def appImage = docker.build("alpine:${BUILD_NUMBER}")
 	}
 }
