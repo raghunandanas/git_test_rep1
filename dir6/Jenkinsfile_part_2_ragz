@@ -72,10 +72,12 @@ def deploy(environment) {
 
 
 def runUnittests() {
+	sh "chmod 755 dir6/test_flask_app_ragz.py"
 	sh "python dir6/test_flask_app_ragz.py"
 }
 
 
 def runUAT(port) {
+	sh "chomod 755 dir6/runUAT_ragz.bash"	
 	sh "dir6/runUAT_ragz.bash ${port}"
 }
