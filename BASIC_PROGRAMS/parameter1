@@ -1,2 +1,2 @@
 echo "Hello ${userName}!. Welcome to Jenkins world."
-echo "Current date/time is :" `date`
+echo "Current date/time is : " `date`
